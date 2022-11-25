@@ -9,7 +9,13 @@
     div {
       background: purple;
     }
-    @media (max-width: 300px) {
+    @media (max-width: 300px) {/*hasta 300 px se toma los estilos*/
+      div {
+        background: red;
+      }
+    }
+
+    @media (min-width: 300px) { /*desde 300 px se toma los estilos*/
       div {
         background: red;
       }
